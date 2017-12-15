@@ -82,8 +82,8 @@ highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       c
 highlight! ModeMsg                guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! CursorLineNr           guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 
-highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! ColorColumn            guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! CursorLine             guifg=NONE     guibg=#2d3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! ColorColumn            guifg=NONE     guibg=#2d3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 
 highlight! Error                  guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! ErrorMsg               guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
@@ -109,7 +109,7 @@ highlight! FoldColumn             guifg=#008097  guibg=NONE     gui=NONE       c
 
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
-highlight! MatchParen             guifg=#ffffff  guibg=NONE     gui=underline  ctermfg=3     ctermbg=NONE  cterm=underline
+highlight! MatchParen             guifg=#ffffff  guibg=#4a5265  gui=bold       ctermfg=3     ctermbg=8     cterm=bold
 
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
@@ -118,7 +118,7 @@ highlight! Number                 guifg=#008097  guibg=NONE     gui=NONE       c
 highlight! WarningMsg             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! MoreMsg                guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! SignColumn             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#008097  guibg=NONE     gui=underline  ctermfg=6     ctermbg=NONE  cterm=underline
 
 highlight! Comment                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! NonText                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
@@ -193,10 +193,6 @@ highlight link elixirAtom                   String
 highlight link elixirBoolean                Define
 
 highlight link elixirFunctionDeclaration    Define
-
-" HTML
-highlight link htmlBold Normal
-highlight link htmlItalic Normal
 
 " Javascript
 highlight link jsStorageClass Keyword
