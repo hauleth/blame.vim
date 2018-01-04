@@ -109,7 +109,7 @@ highlight! FoldColumn             guifg=#008097  guibg=NONE     gui=NONE       c
 
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
-highlight! MatchParen             guifg=#ffffff  guibg=#4a5265  gui=bold       ctermfg=3     ctermbg=8     cterm=bold
+highlight! MatchParen             guifg=#ffffff  guibg=#4a5265  gui=NONE       ctermfg=3     ctermbg=8     cterm=NONE
 
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
