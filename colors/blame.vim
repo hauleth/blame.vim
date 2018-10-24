@@ -104,6 +104,7 @@ highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       c
 highlight! PmenuThumb             guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 
 highlight! PreProc                guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! PreProcItalic          guifg=#008097  guibg=NONE     gui=italic     ctermfg=6     ctermbg=NONE  cterm=italic
 highlight! Title                  guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
@@ -195,7 +196,16 @@ highlight link elixirBoolean                Define
 highlight link elixirFunctionDeclaration    Define
 
 " Javascript
-highlight link jsStorageClass Keyword
+highlight link jsStorageClass               Keyword
+highlight link jsFlowTypeStatement          jsObjectProp
+highlight link jsFlowParenAnnotation        PreProcItalic
+highlight link jsFlowGroup                  PreProcItalic
+highlight link jsFlowType                   PreProcItalic
+highlight link jsFlowNoise                  Type
+highlight link jsFlowDefinition             PreProcItalic
+highlight link jsFlowObject                 jsObjectProp
+highlight link jsModuleBraces               Comment
+highlight link jsObjectBraces               Function
 
 " Markdown
 highlight link markdownLinkText String
