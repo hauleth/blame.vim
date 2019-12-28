@@ -150,6 +150,8 @@ highlight! DiffText               guifg=#c1c9d4  guibg=NONE     gui=reverse    c
 highlight! DiffChange             guifg=#4f426a  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! DiffDelete             guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 
+highlight! Conceal                guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
+
 let g:terminal_color_foreground = '#c1c9d4'
 let g:terminal_color_background = '#2b3240'
 let g:terminal_color_0          = '#2b3240'
