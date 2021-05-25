@@ -219,3 +219,12 @@ highlight link phpVarSelector PreProc
 " CSS
 highlight link cssIdentifier PreProc
 highlight link cssClassName  PreProc
+
+" TreeSitter
+highlight link TSFunction Define
+highlight link TSKeyword Define
+highlight link TSSymbol String
+highlight link TSVariable Normal
+highlight link TSParameter Normal
+highlight link TSPunctBracket Normal
+highlight link TSMethod Normal
