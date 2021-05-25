@@ -223,6 +223,7 @@ highlight link cssClassName  PreProc
 " TreeSitter
 highlight link TSFunction Define
 highlight link TSKeyword Define
+highlight link TSConditional Define
 highlight link TSSymbol String
 highlight link TSVariable Normal
 highlight link TSParameter Normal
