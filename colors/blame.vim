@@ -45,7 +45,7 @@
 "---------------------------------------|-----------------------------------------
 "     NORMAL       Hex          xterm   |      BRIGHT       Hex          xterm   |
 "---------------------------------------|-----------------------------------------
-"     Black        #2b3240      0       |      brBlack      #4a5265      8       |
+"     Black        #384254      0       |      brBlack      #4a5265      8       |
 "     Red          #bc284f      1       |      brRed        #bc284f      9       |
 "     Green        #88b4ad      2       |      brGreen      #88b4ad      10      |
 "     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
@@ -154,7 +154,7 @@ highlight! Conceal                guifg=NONE     guibg=NONE     gui=NONE       c
 
 let g:terminal_color_foreground = '#c1c9d4'
 let g:terminal_color_background = '#2b3240'
-let g:terminal_color_0          = '#2b3240'
+let g:terminal_color_0          = '#384254'
 let g:terminal_color_1          = '#bc284f'
 let g:terminal_color_2          = '#88b4ad'
 let g:terminal_color_3          = '#ffffff'
