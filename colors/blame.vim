@@ -48,7 +48,7 @@
 "     Black        #384254      0       |      brBlack      #4a5265      8       |
 "     Red          #bc284f      1       |      brRed        #bc284f      9       |
 "     Green        #88b4ad      2       |      brGreen      #88b4ad      10      |
-"     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
+"     Yellow       #fdffe1      3       |      brYellow     #fdffe1      11      |
 "     Blue         #5c8097      4       |      brBlue       #5c8097      12      |
 "     Magenta      #4f426a      5       |      brMagenta    #4f426a      13      |
 "     Cyan         #008097      6       |      brCyan       #008097      14      |
@@ -157,7 +157,7 @@ let g:terminal_color_background = '#2b3240'
 let g:terminal_color_0          = '#384254'
 let g:terminal_color_1          = '#bc284f'
 let g:terminal_color_2          = '#88b4ad'
-let g:terminal_color_3          = '#ffffff'
+let g:terminal_color_3          = '#fdffe1'
 let g:terminal_color_4          = '#5c8097'
 let g:terminal_color_5          = '#4f426a'
 let g:terminal_color_6          = '#008097'
@@ -165,7 +165,7 @@ let g:terminal_color_7          = '#8c98a7'
 let g:terminal_color_8          = '#4a5265'
 let g:terminal_color_9          = '#bc284f'
 let g:terminal_color_10         = '#88b4ad'
-let g:terminal_color_11         = '#ffffff'
+let g:terminal_color_11         = '#fdffe1'
 let g:terminal_color_12         = '#5c8097'
 let g:terminal_color_13         = '#4f426a'
 let g:terminal_color_14         = '#008097'
