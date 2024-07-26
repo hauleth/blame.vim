@@ -17,11 +17,3 @@ colorscheme blame
 :octocat: Special Thanks
 -----------------
 [based on](https://github.com/tpozzi/Sidonia)
-
-:octopus: Moar Colorschemes
--------
-[Alduin](https://github.com/AlessandroYorba/Alduin)<br>
-[Despacio](https://github.com/AlessandroYorba/Despacio)<br>
-[Sierra](https://github.com/AlessandroYorba/Sierra)<br>
-[Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
-[Arcadia](https://github.com/AlessandroYorba/Arcadia)

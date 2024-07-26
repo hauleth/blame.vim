@@ -139,6 +139,7 @@ highlight! TabLineFill            guifg=#4a5265  guibg=NONE     gui=underline  c
 highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
 highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
+highlight! link WinSeparator VertSplit
 
 highlight! SpellBad               guifg=#bc284f  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
@@ -174,6 +175,8 @@ let g:terminal_color_15         = '#c1c9d4'
 "=======================================================================================================================
 "  BLAME STYLEFIXES:
 "=======================================================================================================================
+
+highlight link NormalFloat Normal
 
 " Elixir
 highlight link elixirDefine                 Keyword
@@ -221,11 +224,36 @@ highlight link cssIdentifier PreProc
 highlight link cssClassName  PreProc
 
 " TreeSitter
-highlight link TSFunction Define
-highlight link TSKeyword Define
-highlight link TSConditional Define
-highlight link TSSymbol String
-highlight link TSVariable Normal
-highlight link TSParameter Normal
-highlight link TSPunctBracket Normal
-highlight link TSMethod Normal
+highlight! link @character Number
+highlight! link @conditional Define
+highlight! link @function Special
+highlight! link @function.call Special
+highlight! link @keyword.haskell Define
+highlight! link @method Normal
+highlight! link @module Keyword
+highlight! link @parameter Normal
+highlight! link @string.special.symbol Define
+highlight! link @symbol Define
+highlight! link @type Constant
+highlight! link @variable Normal
+highlight! link @variable.builtin Define
+
+highlight! link @tag Define
+highlight! link @tag.delimiter Comment
+highlight! link @tag.attribute Keyword
+
+highlight! @text.danger guifg=#bc284f guibg=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
+highlight! @text.emphasis gui=italic cterm=italic
+highlight! @text.strong gui=bold cterm=bold
+highlight! link @text.warning WarningMsg
+highlight! link @text.diff.delete Special
+highlight! link @text.diff.add Identifier
+
+highlight! link @markup.heading Special
+highlight @markup.heading gui=bold cterm=bold
+
+highlight @markup.strong gui=bold cterm=bold
+highlight @markup.italic gui=italic cterm=italic
+highlight! link @markup.link Number
+
+highlight MiniJump guifg=#bc284f gui=standout cterm=standout
